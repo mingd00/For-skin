@@ -1,0 +1,25 @@
+# 데이터 경로 설정 
+paths:
+  skin_tumor_img: "D:/skin_tumor_img/Training/01.원천데이터"  # 피부 종양 이미지 경로
+  skin_tumor_label: "D:/skin_tumor_img/Training/02.라벨링데이터"  # 피부 종양 라벨 경로
+  extract_zip: "D:/skin_dataset"  # 압축 해제 경로 
+  yolo_skin_dataset: "D:/skin_dataset/yolo_skin_dataset"  # yolo dataset 경로 
+
+# 모델 설정
+model:
+  architecture: "yolov11n"
+  weights: "best.pt"
+
+# 하이퍼파라미터 설정
+hyperparameters:
+  learning_rate: 0.001
+  batch_size: 16
+  epochs: 50
+
+# 디바이스 설정
+device:
+  training:
+    use_cuda: true  # 학습 시 GPU 사용
+    gpu_id: 0  # Google Colab에서 T4 GPU 사용
+  inference:
+    use_cuda: false  # FastAPI 실행 시 CPU 사용
