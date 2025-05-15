@@ -7,9 +7,14 @@ pip install -r requirements.txt
 ```
 
 
-**실행**
+**FastAPI 서버 실행**
 
 ```
 uvicorn main:app --reload
+```
+
+**Streamlit 서버 실행**
+```
+streamlit run streamlit_app/app.py 
 ```
 
