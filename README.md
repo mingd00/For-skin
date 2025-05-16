@@ -30,6 +30,7 @@ For-skin/
 ├── model/
 │   └── best.pt              # 학습된 YOLOv11n 모델
 ├── scripts/                 # 모델 학습 및 유틸리티 스크립트
+│   ├── diagnose_data.json       # 질병별 진단 질문 리스트
 │   ├── preprocess2YOLOdata.py   # 데이터 전처리
 │   ├── train_yolo11n.ipynb      # YOLOv11n 학습 노트북
 │   ├── predict_test.py          # 이미지 예측 테스트
@@ -37,7 +38,6 @@ For-skin/
 │   └── create_chromadb.py       # 진단 질문용 DB 생성
 ├── streamlit_app/
 │   └── app.py               # Streamlit UI 앱
-├── diagnose_data.json       # 질병별 진단 질문 리스트
 ```
 <br>
 
