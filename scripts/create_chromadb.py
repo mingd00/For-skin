@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from langchain.embeddings.openai import OpenAIEmbeddings
 
 # 1. JSON 데이터 불러오기
-with open("diagnose_data.json", "r", encoding="utf-8") as f:
+with open("scripts/diagnose_data.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # 2. 텍스트 분할용 청킹 설정
