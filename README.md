@@ -5,12 +5,21 @@ YOLOv11n 모델을 기반으로 피부 질병을 예측하고, GPT를 활용해 
 <br>
 <br>
 
+
 ### 🚀 주요 기능
 <img src="https://github.com/user-attachments/assets/5c374db4-fb3c-4859-b4b3-124c6801befb" width="600"/>
 
 - 피부 사진 기반 질병 예측 (YOLOv11n 기반 모델)
 
 - ChromaDB에 접근한 후 GPT를 활용하여 질병 진단 질문 자동 생성
+<br>
+
+### 🚀 실행 화면
+- 피부 질환 예측 및 설문 후 최종 진단 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/06065806-c3fa-43f8-8584-98d8bc746fe6" width="45%"/>
+  <img src="https://github.com/user-attachments/assets/c3832bb3-8908-4183-a876-1209118d88ed" width="45%"/>
+</p>
 <br>
 
 
